@@ -1,0 +1,114 @@
+html, body {
+	background: #F5F1DE;
+	color: #000;
+	font-family: Helvetica, FreeSans, sans-serif;
+	height: 100%;
+	min-width: 800px;
+	width: 100%;
+}
+
+h1 {
+	color: #E850A8;
+	font-family:  Museo, "Trebuchet MS", sans-serif;
+	font-size: 80pt;
+	font-weight: normal;
+	padding: 0% 0 0 0;
+	text-align: center;
+}
+
+h1 a:link {
+	color: #E850A8;
+	text-decoration: none;
+}
+
+h1 a:visited {
+	color: #E850A8;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: #00CCFF;
+	text-decoration: none;
+}
+
+h1 a:active {
+	color: #00CCFF;
+	text-decoration: none;
+}
+
+nav {
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+nav ul li {
+	display: inline;
+	font-family: Museo, "Trebuchet MS", sans-serif;
+	font-size: 14pt;
+	padding: 0 32px 0 32px;
+}
+
+nav ul li a:link {
+	color: #D0AC11;
+	text-decoration: none;
+}
+
+nav ul li a:visited {
+	color: #D0AC11;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	border-bottom: 3px solid #00CCFF;
+	color: #00CCFF;
+	text-decoration: none;
+}
+
+#current {
+	text-decoration: underline;
+	font-style: italic;
+}
+
+section {
+	margin: 0 auto 0 auto;
+	width: 750px;
+}
+
+section article {
+	display: inline-block;
+	float: left;
+	width: 500px;
+}
+
+section article p {
+	font-size: 10pt;
+	line-height: 1.3em;
+	margin: 15px 10px 0 0;
+	text-align: justify;
+}
+
+#twitter_widget {
+	float: right;
+	width: 220px;
+	padding: 7px 0 0 0;
+}
+
+.twtr-hd {
+	margin: 0 0 0 -9px;
+}
+
+.twtr-user, .twtr-timestamp, .twtr-reply {
+	font-family:  Museo, "Trebuchet MS", sans-serif;
+	font-size: 1.1em;
+}
+
+.twtr-tweet-text p {
+	font-family: Helvetica, FreeSans, sans-serif !important;
+}
+
+.twtr-tweet-wrap {
+	background: #F2F2F2;
+}
+.twtr-ft {
+	display: none;
+}
